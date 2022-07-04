@@ -141,6 +141,11 @@ section{
     align-items: center;
 }
 
+.row > .row_name:hover{
+    color: white;
+
+}
+
 .row_name{
     width: 100px;
     color: rgba(255, 255, 255, 0.4);
@@ -211,13 +216,22 @@ section{
     width: 420px;
     height: 441px;
     background: #28272B;
-    border: 2px solid #5DBF79;
+    border: 2px solid #28272B;
     border-radius: 15px;
+}
+
+.card:hover{
+    border: 2px solid #5DBF79;
 }
 
 .card_image{
     height: 200px;
     margin-bottom: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .rate{
@@ -244,7 +258,7 @@ section{
 }
 
 .amount{
-    width: 20px;
+    width: 250px;
 }
 
 .card_name{
@@ -282,4 +296,38 @@ section{
 .plus_full{
     margin-top: 93px;
     margin-left: 18px;
+}
+
+.comment{
+    display: flex;
+    width: 478px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.comment_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.com{
+    width: 500px;
+    text-align: left;
+}
+
+.full_card_image{
+    width: 534px;
+    height: 386px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.full{
+    width: 450px;
 }
